@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message Config {
+    bool disable = 1; 
+    repeated string rules = 2;
+}
